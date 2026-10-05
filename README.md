@@ -42,8 +42,12 @@ Transportation requires spatial awareness and synchronized maneuvering to avoid 
 * `Resources/`: Contains the pre-compiled Windows standalone builds compressed as `.zip` files (`Ejecutable_simple.zip` and `Ejecutable_complejo.zip`).
 * `images/`: Visual assets showing environment layouts and learned trajectories.
 
-## Running the Pre-compiled Environments
-You do not need to install Unity to test the behaviors. Simply navigate to the `Resources/` folder, extract the desired archive (`Ejecutable_simple.zip` or `Ejecutable_complejo.zip`), and run the `.exe` file located inside the extracted folder to observe the agents performing the task.
+## 🎮 Running the Pre-compiled Environments
+You do not need to install Unity to test the behaviors. Pre-compiled Windows standalone builds are available in the **Releases** section of this repository.
+
+1. Navigate to the **Releases** section on the right side of this GitHub page.
+2. Download the `Ejecutable_simple.zip` or `Ejecutable_complejo.zip` archives.
+3. Extract the folder and run the `.exe` file inside to observe the agents performing the task.
 
 ## Running from Source (Unity)
 To open the project and train the models yourself, ensure you are using a compatible Unity version (e.g., Unity 2022.3) and the corresponding ML-Agents Release package. 
@@ -58,6 +62,3 @@ Due to the architectural differences in how ML-Agents handles individual versus 
 
 1. **For PPO and SAC (Independent architectures):** Assign the `AgenteColaborador_PPO_SAC.cs` script to the agents. This utilizes individual credit assignment (`AddReward`).
 2. **For MA-POCA (Centralized architecture):** Assign the `AgenteColaborador.cs` script. This requires the `SimpleMultiAgentGroup` component and utilizes group credit assignment (`AddGroupReward`).
-
-**Note on Reward Visualization (MA-POCA):** 
-In the raw training data, MA-POCA agents accumulated a slightly higher maximum reward (~200) compared to PPO/SAC (~150) due to how group rewards are summed, despite all algorithms achieving the exact same collaborative success. To allow for a fair visual comparison in the manuscript's learning curves, MA-POCA rewards were scaled to match the ~150 baseline. For full transparency, the provided `AgenteColaborador.cs` script includes a `factorNormalizacion = 0.75f` variable. This linear scaling affects only the visualization limits in TensorBoard and does not alter the underlying policy optimization.
