@@ -1,8 +1,21 @@
-# Multi-Agent Reinforcement Learning for Collaborative Object Manipulation
+# Multi-Agent Reinforcement Learning for Collaborative Object Manipulation in Unity-Based Industrial Simulation Environments
 
-[![Paper](https://img.shields.io/badge/Paper-IEEE_Latin_America_Transactions-blue.svg)](#) *(Under Review - Manuscript ID 10973)*
+[![Paper](https://img.shields.io/badge/Paper-IEEE_Latin_America_Transactions-blue.svg)](#) **Submission ID:** 10973 *(Conditionally Accepted)*
 
-This repository contains the Unity ML-Agents environment, source code, hyperparameter configurations, and standalone executables for our research on collaborative object manipulation using Multi-Agent Reinforcement Learning (MARL).
+This repository contains the Unity ML-Agents environment, source code, hyperparameter configurations, and standalone executables for our research on collaborative object manipulation using Multi-Agent Reinforcement Learning (MARL) (Manuscript ID: 10973).
+
+## Authors and Affiliations
+
+1. **Manuel E. Vázquez** (`manuel.vazquez@fio.unicen.edu.ar`) — *Facultad de Ingeniería, Universidad Nacional del Centro de la Provincia de Buenos Aires (UNCPBA), and Centro de Investigaciones en Física e Ingeniería del Centro (CIFICEN), UNICEN-CICpBA-CONICET, Olavarría (B7400JWI), Buenos Aires, Argentina.*
+2. **Carolina Saavedra Sueldo** (`carolina.saavedra@fio.unicen.edu.ar`) — *Facultad de Ingeniería, UNCPBA, and CIFICEN (UNICEN-CICpBA-CONICET), Olavarría (B7400JWI), Buenos Aires, Argentina.*
+3. **Ivo Perez Colo** (`ivo.perez@fio.unicen.edu.ar`) — *Facultad de Ingeniería, UNCPBA, and CIFICEN (UNICEN-CICpBA-CONICET), Olavarría (B7400JWI), Buenos Aires, Argentina.*
+4. **Luis O. Ávila** (`loavila@unsl.edu.ar`) — *Laboratorio de Sistemas Inteligentes, Universidad Nacional de San Luis (UNSL), San Luis, Argentina, and CONICET, Argentina.*
+5. **Sebastián A. Villar** (`svillar@fio.unicen.edu.ar`) — *Facultad de Ingeniería, UNCPBA, and CIFICEN (UNICEN-CICpBA-CONICET), Olavarría (B7400JWI), Buenos Aires, Argentina.*
+6. **Agustina Jurgiel** (`ajurgi@palermo.edu`) — *Facultad de Ingeniería, Universidad de Palermo, Mario Bravo 1050, C1175 ABT, Ciudad Autónoma de Buenos Aires, Argentina.*
+7. **Gerardo G. Acosta** (`ggacosta@fio.unicen.edu.ar`) — *Facultad de Ingeniería, UNCPBA, and CIFICEN (UNICEN-CICpBA-CONICET), Olavarría (B7400JWI), Buenos Aires, Argentina.*
+8. **Mariano De Paula** (`mariano.depaula@fio.unicen.edu.ar`) — *Facultad de Ingeniería, Universidad de Palermo, C1175 ABT, Ciudad Autónoma de Buenos Aires, Argentina, and CIFICEN (UNICEN-CICpBA-CONICET), Olavarría (B7400JWI), Buenos Aires, Argentina.*
+
+---
 
 <p align="center">
   <img src="images/Escenario.png" alt="Environment Overview" width="700">
