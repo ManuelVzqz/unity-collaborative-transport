@@ -52,7 +52,7 @@ Transportation requires spatial awareness and synchronized maneuvering to avoid 
 * `Assets/`: Unity source code, C# agent scripts, 3D models, and scene files.
 * `Packages/`: ML-Agents dependencies (`manifest.json`).
 * `Config_yaml/`: Training hyperparameter configurations (`configPOCA.yaml`, `configPPO.yaml`, `configSAC.yaml`).
-* `Resources/`: Contains the pre-compiled Windows standalone builds compressed as `.zip` files (`Ejecutable_simple.zip` and `Ejecutable_complejo.zip`).
+* `Releases/`: Contains the pre-compiled Windows standalone builds compressed as `.zip` files (`Ejecutable_simple.zip` and `Ejecutable_complejo.zip`).
 * `images/`: Visual assets showing environment layouts and learned trajectories.
 
 ## 🎮 Running the Pre-compiled Environments
